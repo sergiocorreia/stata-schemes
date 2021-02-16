@@ -5,7 +5,7 @@ My personal Stata figure schemes (styles)
 ## Install
 
 ```stata
-net install scheme-sergio, from("https://github.com/sergiocorreia/stata-schemes/raw/master/")
+net install scheme-sergio, from(https://raw.githubusercontent.com/sergiocorreia/stata-schemes/main)
 ```
 
 ## Usage
@@ -15,6 +15,12 @@ set scheme sergio
 // or
 set scheme sergio, permanently
 ```
+
+
+## Notes
+
+- It is critical that you issue the `discard` command each time before you reissue your graph command.
+- See `help scheme entries`
 
 
 ## Useful tutorials
@@ -31,3 +37,14 @@ set scheme sergio, permanently
 - `plottig` and `plottigblind` [sj article](https://uc6aad937ff63c1fcef25512ba37.dl.dropboxusercontent.com/cd/0/inline2/BJDxVAUzlZxv9oK6eX2FGX4m2dek_gNtBm1ECf_vVPKpJVja_XX_zk5vfN5ibYR0TOhb6fyjiKbJom-9-l4Yoxx7qoIFEr6lxE2T12kWAEoYJ_iSdf_r7TlLpMkGDGAWUT5sud6J5diuqTnl_xZPG3lrb5BqGvfWOVtKdJRmVNCrdn6BbES6QXeIP2rPx0foOpxcIbdm383b1lzpuoXkwKXWBZhTYxm5kkCr8WTqOYAd5PNs6r2_-n0JPLSV4VUhbiwwPfzmqq0fXSwwcE7yylMDKmkRKAaGbK6j6_aEpo5OFnNpi8gx_jcq_EVxWTpfkMl6AmokoQwX2GhT-FWvAR5x/file#)
 - https://gray.kimbrough.info/uncluttered-stata-graphs/
 - https://github.com/mdroste/stata-scheme-modern
+
+
+## Screenshots
+
+Default scheme (`s2color`):
+
+![S2Color screenshot](example-s2color.png)
+
+This scheme:
+
+![Sergio screenshot](example-sergio.png)
