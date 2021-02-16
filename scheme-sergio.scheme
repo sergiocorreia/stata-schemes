@@ -1,0 +1,25 @@
+* Sergio's default graph settings
+*! version 0.1 06jun2020
+
+
+#include s2color
+label "sergio"
+
+
+color background 			white
+color heading				black
+
+color legend_line			white
+numstyle legend_rows		1
+
+graphsize x           		16
+graphsize y           		12
+
+anglestyle vertical_tick	horizontal
+
+color major_grid            gs14
+linewidth major_grid        thin
+linepattern major_grid  	solid
+
+margin graph sides
+margin legend            	zero

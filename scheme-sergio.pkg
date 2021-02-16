@@ -1,0 +1,12 @@
+v 3
+
+d scheme-sergio: Stata schemes
+d
+d Author: Sergio Correia. Board of Governors of the Federal Reserve System
+d Support: sergio.correia@gmail.com
+d
+d This scheme just adds the options I normally use.
+d
+d Distribution-Date: 20210215
+d
+f scheme-sergio.scheme

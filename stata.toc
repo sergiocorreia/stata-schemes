@@ -1,0 +1,3 @@
+v 3
+d Sergio Correia, Federal Reserve Board (sergio.correia@gmail.com)
+p scheme-sergio My personal Stata figure schemes (styles)
